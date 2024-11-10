@@ -22,9 +22,10 @@ let userAge: Age;
 userAge = 25; // ok
 userAge = "25"; // ok
 userAge = true; // gives an error because type should be string or number.
+```
 
 ### Example-02:
-
+```typescript
 
 
 type Car = {
@@ -49,7 +50,7 @@ const vehicle: Car | Bike = {
     age: 3 , // this gives an error so we can easily find errors
 }
 
-
+```
 
 ## 2.Intersection Type (&)
 
@@ -66,6 +67,8 @@ An intersection type combines multiple type into one. As simple as that. Let we 
 
 ###Example-1
 
+```typescript
+
 type student = {
     name: string;
     age: number;
@@ -81,7 +84,7 @@ const AStudentWithPartTimeJob: student & partTimeJobHolder  = {
     age: 20,
     job: 'something' // if you not give this property typescript gives you error for using intersection type . So from that we can understand that it strict the combine type and definitely it combine multiple type.
 }
-
+```
 
 
 
