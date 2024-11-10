@@ -83,7 +83,7 @@ const AStudentWithPartTimeJob: student & partTimeJobHolder  = {
     name: 'taw',
     age: 20,
     job: 'something' // if you not give this property typescript gives you error for using intersection type . So from that we can understand that it strict the combine type and definitely it combine multiple type.
-}
+} 
 ```
 
 
