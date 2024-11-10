@@ -52,7 +52,7 @@ const vehicle: Car | Bike = {
 
 ```
 
-## 2.Intersection Type (&)
+## 2.Intersection Type (`&`)
 
 
 An intersection type combines multiple type into one. As simple as that. Let we have two type and now we want a variable who should include this two type. So we do not need to write all two type for that. By using intersection we can easily combine this two type. 
